@@ -106,14 +106,30 @@ background-color: #7cbb02;
   width: 100%;
   height: 150px;
   background-color: #d3d3d3;
+  text-align: center;
+}
+
+.testorigatitolo {
+  padding-top: 36px;
+}
+
+.testogrande {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.testopiccolo {
+  font-size: 20px;
+  color: #808080;
+  padding-top: 10px;
 }
 
 .row {
   width: 80%;
   margin: auto;
-  height: 500px;
-  background-color: green;
+  height: auto;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .row,.secondarow::after{
@@ -126,49 +142,91 @@ background-color: #7cbb02;
   float: left;
   width: 30%;
   height: 450px;
-  margin: auto;
+  text-align: center;
+  padding: 0 5%;
 }
 
-.prima {
-  background-color: orange;
+.imgcolonna {
+  margin-bottom: 15px;
+  height: 170px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.line-modify {
+  width: 60px;
+  border-color: lightgray;
+  margin: 25px auto;
+}
+
+img + h2 {
+  color: #7cbb02;
+}
+
+hr {
+  border-color: lightgray;
 }
 
 .seconda {
   margin: 0 5%;
-  background-color: purple;
-}
-
-.terza {
-  background-color: blue;
 }
 
 .secondarow {
   width: 80%;
   margin: auto;
   height: 500px;
-  background-color: lightblue;
   margin-top: 30px;
 }
 
 .cippo {
     float: left;
     width: 45%;
-    height: 450px;
     margin: auto;
-    background-color: indigo;
+}
+
+.imgmontagna {
+  height: 450px;
 }
 
 .sinistra {
-  background-color: indigo;
+  height: 450px;
+  padding: 0 5%;
 }
 
 .destra {
-  background-color: crimson;
   margin-left: 10%;
+  width: 40%;
+  padding: 0 30px;
+}
+
+.testodestra {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.testodestra p {
+  margin-top: 20px;
+}
+
+.testodestra a {
+  font-weight: bold;
+}
+
+.placement {
+  padding-top: 15px;
+  display: block;
+  color:  #87aad0;
 }
 
 footer {
   height: 100px;
   width: 100%;
-  background-color: grey;
+  background-color: #d3d3d3;
+}
+
+.testofoot  {
+  margin-left: 10%;
+  line-height: 100px;
+  vertical-align: middle;
 }
